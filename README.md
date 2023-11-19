@@ -1,5 +1,5 @@
 # AirBnB Clone ― The ALX-Holberton BnB
-![Optional Text](hbnb.png)
+
 ## Description of the project
 The ALX-Holberton B&B project encapsulates the culmination of my intensive four-month software engineering program at ALX-Holberton School. This endeavor aims to replicate the essential features of the renowned [Airbnb Website](https://www.airbnb.com/) using my server.
 
