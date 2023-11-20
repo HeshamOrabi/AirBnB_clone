@@ -29,7 +29,7 @@
     width: 25%;
     border-right: 1px solid #DDDDDD;
     margin-right: 0;
-    
+
 }
 
 .amenities {
@@ -38,18 +38,68 @@
     margin-right: auto;
 }
 
-.locations h3, .amenities h3 {
+.locations h3,
+.amenities h3 {
     margin-bottom: 0;
     margin-left: 15%;
     text-align: left;
     font-weight: 600;
 }
 
-.locations h4, .amenities h4 {
+.locations h4,
+.amenities h4 {
     margin-top: 0;
     margin-left: 15%;
     text-align: left;
     font-size: 14px;
     font-weight: 400;
 
+}
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: 90%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    list-style-type: none;
+    padding-left: 10%;
+}
+
+.locations li {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.popover h2 {
+    font-size: 16px;
+}
+
+.sublist {
+    list-style-type: none;
+    margin-bottom: 10%
+}
+
+.amenities ul {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.amenities li {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.locations:hover .popover {
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.amenities:hover .popover {
+    display: block;
+    position: relative;
+    z-index: 100;
 }
